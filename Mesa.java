@@ -20,10 +20,17 @@ public class Mesa {
         return jugador1.cartasRepartidas;
     }
     
-    /*
     public int recibirCarta(Jugador jugador1){
-        int pos=jugador1.tirarCarta(carta);
-        return pos;
+        int pos=jugador1.cartaElegidaParaTirar();
+        Carta cartaRecibida=jugador1.tirarCarta(pos);
+        return cartaRecibida.posicion;
     }
-*/
+    
+    /*
+    public int escucharEnvido(){
+    
+   
+    }
+    */
+
 }

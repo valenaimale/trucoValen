@@ -5,5 +5,11 @@ public class Juego {
     public Juego(Mesa mesa) {
         this.mesa = mesa;
     }
-    public void evaluarCarta(){}
+    public void evaluarCarta(){
+        
+        
+        
+       
+  
+    }
 }
